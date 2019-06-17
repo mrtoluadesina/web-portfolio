@@ -5,39 +5,131 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Tolu Adesina</title>
-  <link rel="shortcut icon" href="assets/img/favicon.png">
-  <link rel="stylesheet" type="text/css" href="semantic/out/semantic.min.css">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="./assets/img/icon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./assets/img/icon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./assets/img/icon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/icon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./assets/img/icon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/img/icon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./assets/img/icon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./assets/img/icon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/icon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="./assets/img/icon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./assets/img/icon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/icon/favicon-16x16.png">
+  <link rel="manifest" href="./assets/img/icon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./assets/img/icon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!-- /End Favicon -->
+  <link rel="stylesheet" type="text/css" href="./semantic/out/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
 </head>
 <body>
 
   <!-- Following Menu -->
 <div class="ui large top fixed hidden menu">
     <div class="ui container">
-      <!-- <a class="active item">About Me</a>
-      <a class="item">Contact Me</a>
-      <a class="item">What I like to talk about</a> -->
       <div class="right menu">
-          <a class="active item">About Me</a>
-          <a class="item">Contact Me</a>
-          <a class="item">What I like to talk about</a>
+          <a href="/" class="active item">About Me</a>
+          <a href="/contact.html" class="item">Contact Me</a>
+          <a href="/blog.html" class="item">What I like to talk about</a>
       </div>
     </div>
   </div>
+
+  <!-- Page Contents -->
+<div class="pusher">
+    <div class="ui inverted vertical masthead center aligned segment">
   
-  <!-- Sidebar Menu -->
-  <div class="ui vertical inverted sidebar menu">
-    <a class="active item">Home</a>
-    <a class="item">Work</a>
-    <a class="item">Company</a>
-    <a class="item">Careers</a>
-    <a class="item">Login</a>
-    <a class="item">Signup</a>
+      <div class="ui container">
+        <div class="ui large secondary inverted pointing menu">
+          <a class="toc item">
+            <i class="sidebar icon"></i>
+          </a>
+          <div class="right item">
+              <a href="/" class="active item">About Me</a>
+              <a href="/contact.html" class="item">Contact Me</a>
+            <a href="/blog.html" class="ui inverted button">What I like to talk about</a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="ui text container">
+        <h1 class="ui inverted header">
+          Tolu Adesina
+        </h1>
+        <h2>Software Engineer | Technical Writer | Teacher.</h2>
+        <a href="/contact.html" class="ui huge primary button">Contact Me <i class="right arrow icon"></i></a>
+      </div>
+  
+    </div>
+  
+    <div class="ui vertical stripe segment">
+      <div class="ui middle aligned stackable grid container">
+        <div class="row">
+          <div class="eight wide column">
+            <h3 class="ui header">About Me</h3>
+            <p>I am a self taught Software Engineer, I build mostly for the web, I work with vanilla JavaScript, TypeScript and framworks on JavaScript. It is safe to say I am a JavaScript compiler on my own.</p>
+            <h3 class="ui header">Things I like to do</h3>
+            <p>I read, write and cook when I am not typing away on my keyboard.</p>
+          </div>
+          <div class="six wide right floated column">
+            <img src="./assets/img/tolu-adesina.jpg" class="Iconic Image of Tolu Adesina">
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  
+    <div class="ui vertical stripe quote segment">
+      <div class="ui equal width stackable internally celled grid">
+        <div class="center aligned row">
+          <div class="column">
+            <h3>"What a Company"</h3>
+            <p>That is what they all say about us</p>
+          </div>
+          <div class="column">
+            <h3>"Tolu is a very seasoned Engineer, always a delite working with him."</h3>
+            <p class="testimony">
+              <img src="./assets/img/bondz.jpg" class="ui avatar image"> <b>bondz</b> Senior Trainer, Decagon
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="ui vertical stripe segment">
+      <div class="ui text container">
+        <h4 class="ui horizontal header divider">
+            <a href="#">My Articles on Medium</a>
+        </h4>
+        <!-- <h2>My Articles on Medium</h2> -->
+        <h3 class="ui header">How to Install MongoDB on Mac</h3>
+        <p>First you need to check if you have Homebrew on your computer — brew help just in case you do not need it. Homebrew is a package manager for MacOs.</p>
+        <a href="https://medium.com/better-programming/how-to-install-mongodb-on-your-mac-42020fc19827" target="_blank" class="ui large button">Read More</a>
+        <br>
+        <h3 class="ui header">Testing your JavaScript Code — TDD</h3>
+        <p>First things first, what is testing? Testing (i.e software testing) is an investigation conducted to provide stakeholders with information about the quality of the software product or service under test.</p>
+        <a href="https://blog.usejournal.com/testing-your-javascript-code-tdd-e3ab872c461d" target="_blank" class="ui large button">Read More</a>
+      </div>
+    </div>
+  
+  
+    <div class="ui inverted vertical footer segment">
+      <div class="ui text container">
+          <p class="copyright">All Rights Reserved.</p>
+      </div>
+    </div>
   </div>
 
   <script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
-<script src="semantic/out/semantic.min.js"></script>
+<script src="./semantic/out/semantic.min.js"></script>
+<script src="./assets/js/main.js"></script>
 </body>
 </html>
