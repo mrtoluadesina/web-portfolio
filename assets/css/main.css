@@ -6,6 +6,10 @@
   min-height: 700px;
   padding: 1em 0em;
 }
+
+.masthead-contact.segment {
+  min-height: 200px;
+}
 .masthead .logo.item img {
   margin-right: 1em;
 }
