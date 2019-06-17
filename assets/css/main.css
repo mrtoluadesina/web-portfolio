@@ -59,6 +59,29 @@
   display: none;
 }
 
+.ui.vertical.stripe p.testimony {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .99em;
+}
+
+.testimony img {
+  border-radius: 50%;
+  width: 40px;
+  margin-right: 1rem;
+}
+
+.testimony b {
+  font-size: 1.5em;
+  margin-right: .5em;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+
 @media only screen and (max-width: 700px) {
   .ui.fixed.menu {
     display: none !important;
